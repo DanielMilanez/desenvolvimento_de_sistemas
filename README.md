@@ -51,3 +51,8 @@ Este repositório é pessoal e serve como um portfólio do meu aprendizado, mas 
 ## Licença
 
 Este repositório está licenciado sob a **MIT License**. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+
+Durante a criação do meu repositório realizei atividades no site [BeeCrowd](https://judge.beecrowd.com/pt)
+
