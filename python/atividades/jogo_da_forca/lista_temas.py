@@ -1,0 +1,16 @@
+temas = {
+    'frutas': ['melancia', 'pessego', 'manga', 'pera', 'morango', 'abacaxi', 'banana', 'uva', 'maca', 'laranja', 'kiwi', 'cabeludinha', 'figo', 'coco', 'goiaba', 'caqui', 'amora', 'jaca', 'graviola', 'carambola', 'cabeludinha', 'pitanga', 'cabeludinha', 'cabeludinha', 'maracuja'],
+    'animais': ['porco', 'cabra', 'galinha', 'vaca', 'baleia', 'leao', 'tigre', 'girafa', 'elefante', 'cachorro', 'gato', 'zebra', 'lobo', 'urso', 'raposa', 'coelho', 'macaco', 'onca', 'hipopotamo', 'cervo', 'jacare', 'gaviao', 'aguia', 'pinguim', 'urso polar'],
+    'cores': ['vermelho', 'azul', 'verde', 'amarelo', 'laranja', 'roxo', 'rosa', 'preto', 'branco', 'cinza', 'violeta', 'turquesa', 'bege', 'marrom', 'prata', 'ouro', 'lavanda', 'creme', 'mostarda', 'chartreuse', 'bordo', 'ciano', 'pessego', 'salmao', 'berilo'],
+    'super herois': ['homem aranha', 'batman', 'super homem', 'mulher maravilha', 'flash', 'aquaman', 'pantera negra', 'hulk', 'thor', 'viuva negra', 'homem de ferro', 'homem formiga', 'ciclope', 'wolverine', 'professor x', 'harley quinn', 'deadpool', 'gaviao arqueiro', 'tempestade', 'senhor das estrelas', 'jubileu', 'demolidor', 'cavaleiro da lua', 'ultraman', 'kamen rider'],
+    'paises': ['franca', 'alemanha', 'espanha', 'japao', 'china', 'inglaterra', 'brasil', 'russia', 'australia', 'canada', 'argentina', 'italia', 'colombia', 'india', 'nigeria', 'peru', 'egito', 'iraque', 'turquia', 'coreia do sul', 'ira', 'grecia', 'suecia', 'dinamarca', 'suiça'],
+    'instrumentos': ['violao', 'guitarra', 'bateria', 'piano', 'baixo', 'flauta', 'violino', 'cajon', 'harpa', 'saxofone', 'clarinete', 'trompete', 'pandeiro', 'cavaquinho', 'trombone', 'fagote', 'contrabaixo', 'marimba', 'xilofone', 'gaita', 'bandolim', 'oboe', 'timpani', 'sanfona', 'teremin'],
+    'vegetais': ['cenoura', 'batata', 'alface', 'tomate', 'abobora', 'beterraba', 'pepino', 'brocolis', 'espinafre', 'cebola', 'alho', 'abobrinha', 'couve', 'mandioca', 'rabanete', 'aspargo', 'berinjela', 'chuchu', 'couve flor', 'inhame', 'agriao', 'maxixe', 'pepino japones', 'quiabo', 'batata doce'],
+    'carros': ['fusca', 'civic', 'gol', 'camaro', 'mustang', 'ferrari', 'lamborghini', 'porsche', 'corvette', 'honda', 'audi', 'mercedes', 'bmw', 'toyota', 'fiat', 'renault', 'chevrolet', 'ford', 'jaguar', 'nissan', 'volkswagen', 'bugatti', 'maserati', 'porshe', 'audi q7'],
+    'filmes': ['star wars', 'batman', 'vingadores', 'jurassic park', 'matrix', 'gladiador', 'a origem', 'o poderoso chefao', 'titanic', 'piratas do caribe', 'star trek', 'de volta para o futuro', 'rocky', 'forrest gump', 'um sonho de liberdade', 'coringa', 'superbad', 'pulp fiction', 'homem aranha', 'homem de ferro', 'o rei leao', 'jogos vorazes', 'os intocaveis', 'missao impossivel', 'sharknado'],
+    'series': ['breaking bad', 'stranger things', 'game of thrones', 'the office', 'dandadan', 'the big bang theory', 'o mandaloriano', 'cyberpunk edgerunners', 'black mirror', 'black clover', 'the simpsons', 'naruto', 'dragon ball super', 'dark', 'the walking dead', 'hora de aventura', 'the umbrella academy', 'clarencio o otimista', 'peaky blinders', 'vikings', 'apenas um show', 'steven universe', 'the boys', 'o segredo alem do jardim', 'rick and morty']
+}
+
+# Verificador de quantidade de palavras em cada tema
+for tema, itens in temas.items():
+    print(f'O tema "{tema}" possui {len(itens)} itens.')
