@@ -22,7 +22,6 @@ def lembretes():
         if not lembrete:
             return 'vazio'
         else:
-            system('cls')
             removing = int(input('Insira a opção do lembrete para remover >> ')) 
             lembrete.pop(removing - 1)
     else:

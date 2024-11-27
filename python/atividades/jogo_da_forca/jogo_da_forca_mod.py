@@ -3,7 +3,7 @@ from os import system
 from lista_temas import temas
 
 def sorteio(select_tema):
-    system('clear')
+    system('cls')
 
     if select_tema in temas:
         palavra = temas[select_tema][randint(0, len(temas[select_tema]) - 1)]
@@ -29,7 +29,7 @@ def game():
             system('cls')
             print('=' * 30)
             mostrar_temas()
-            palavra_chave_input = input('\033[31mTema inválido\033[m digite um tema: ').lower().strip()
+            palavra_chave_input = input('\033"[31mTema inválido\033[m digite um tema: ').lower().strip()
             palavra_chave, tema = sorteio(palavra_chave_input)
             
         fim = game_core(palavra_chave, tema)
