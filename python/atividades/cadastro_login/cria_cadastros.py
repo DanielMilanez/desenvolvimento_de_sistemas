@@ -1,7 +1,12 @@
-dados_json = '.\python\\atividades\cadastro_login\dados.json'
 import json
 
-user = {
-    'login': ['danielmilanez', 'lucastexeira'],
-    'senhas': ['40028922', 'fazoeli']
-}
+def criar_cadastro(dados_json):
+    user = {
+        'login': [],
+        'senhas': []
+    }
+    with open(dados_json, 'a', encoding='utf-8') as leitura:
+        json.dump(
+                user,
+                leitura
+            )

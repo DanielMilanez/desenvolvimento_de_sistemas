@@ -1,8 +1,11 @@
+import cria_cadastros as cc
 import json
-from os import system
+from os import system, path
 dados_json = '.\python\\atividades\cadastro_login\dados.json'
 
 system('cls')
+if not path.exists(dados_json):
+    cc.criar_cadastro(dados_json)
 
 with open(dados_json, 'r', encoding='utf-8') as leitura:
     user = json.load(leitura)
@@ -16,10 +19,6 @@ def cadastro(login, senha):
             user,
             leitura
         )
-    with open(dados_json, 'r', encoding='utf-8') as leitura:
-        usuario = json.load(leitura)
-        for chave, valor in usuario.items():
-            print(chave, valor)
 
 def login(login, senha): 
     liberado = False
