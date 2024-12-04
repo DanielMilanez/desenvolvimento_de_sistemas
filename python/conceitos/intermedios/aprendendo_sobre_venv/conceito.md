@@ -6,7 +6,7 @@ Para se crair um ambiente virtual utilize um código em seu prompt `python -m ve
 Aqui está uma lista de códigos utilizados para manipular uma venv, ou realizar operações delas.
 
 ```bash
-    pip freeze Requirements.txt
+    pip freeze > Requirements.txt
     pip install -r Requirements.txt
 
     pip uninstall "nome"
