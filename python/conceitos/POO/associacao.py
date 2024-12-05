@@ -19,7 +19,7 @@ class User:
     # Pega o que foi retornando e acrecenta na variável livro.
     @bookAdd.setter # Realiza a Associação de um objeto em outro
     def adicionarLivro(self, bookAdd):
-        self.libary = bookAdd
+        self.book = bookAdd
 # ------------------------------------------------------------------
 
 class Book:
