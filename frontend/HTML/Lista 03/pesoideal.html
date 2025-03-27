@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../JavaScript/Lista 03/ex01.js" defer></script>
+    <link rel="stylesheet" href="../../CSS/pesoideal.css">
+    <title>IMC</title>
+</head>
+<body>
+    <img src="../../Assets/balanca.png"  class="balanca" alt="imagem_balança.png">
+    <form>
+        <h1>Programa Cálculo de peso ideal</h1>
+        <br>
+        <p> Nome
+            <input type="text" id="inName" placeholder="Informe seu nome">
+        </p>
+        <br>
+        <p> Sexo
+            <input type="radio" name="sexo" id="inMasculino" required> Masculino
+            <input type="radio" name="sexo" id="inFeminino" required> Feminino
+        </p>
+        <br>
+        <p> Altura
+            <input type="number" min="0" step="0.01" id="inAltura" required>
+        </p>
+        <br>
+        <input type="submit" value="Calcular">
+        <input type="reset" value="Limpar campos" onclick="limpar()">
+    </form>
+    <div class="retorno">
+        <h3></h3>
+    </div>
+</body>
+</html>

@@ -12,6 +12,7 @@ O repositório está organizado de acordo com os módulos e tópicos abordados n
 |:-:|:-:|
 |Python|[Aqui](./python/)|
 |C|[Aqui](./c/)|
+|JavaScript|[Aqui](./frontend/JavaScript/)|
 |Eletrônica|--|
 |Banco de dados|[Aqui](./database/README.md)|
 

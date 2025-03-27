@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>2° Lista de atividades</title>
+    <link rel="stylesheet" href="../../CSS/list.css">
+    <script src="../../JavaScript/Lista 02/ex01.js" defer></script>
+    <script src="../../JavaScript/Lista 02/ex02.js" defer></script>
+    <script src="../../JavaScript/Lista 02/ex03.js" defer></script>
+    <script src="../../JavaScript/Lista 02/ex04.js" defer></script>
+    <script src="../../JavaScript/Lista 02/ex05.js" defer></script>
+    <script>
+        function executarCode(codeNumber) {
+            switch (codeNumber) {
+                case 1:
+                    execute01();
+                    break;
+                case 2:
+                    execute02();
+                    break;
+                case 3:
+                    execute03();
+                    break;
+                case 4:
+                    execute04();
+                    break;
+                case 5:
+                    execute05();
+                    break;
+                default:
+                    console.log("Código inválido");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>Aprendendo lógica de programação no senai</h3>
+    <div class="itens">
+        <p>cada um dos seguintes botões, executa um algoritmo desenvolvido em JS</p>
+        <br><br>
+        <p>1. Recebendo entrada e retornando duplo</p>
+        <button class="atividades" onclick="executarCode(1)">Executar</button>
+        <p>2. Calculando a soma entre dois números</p>
+        <button class="atividades" onclick="executarCode(2)">Executar</button>
+        <p>3. Exibindo números pares</p>
+        <button class="atividades" onclick="executarCode(3)">Executar</button>
+        <p>4. Calculando o valor total do jantar e o valor da gorjeta do garçom</p>
+        <button class="atividades" onclick="executarCode(4)">Executar</button>
+        <p>5. Calculando o tempo de duração da viajem</p>
+        <button class="atividades" onclick="executarCode(5)">Executar</button>
+    </div>
+</body>
+</html>

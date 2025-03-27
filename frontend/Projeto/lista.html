@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./lista.js" defer></script>
+    <title>A fazer</title>
+    <style>
+        td{
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Gerenciar lista</h1>
+    <form>
+        <p>
+            ID:
+            <input type="number" id="inID" disabled>
+        </p>
+        <p>
+            Item:
+            <input type="text" id="inItem">
+        </p>
+        <input type="submit" value="Gravar">
+        <input type="button" value="Apagar" onclick="apagar()">
+        <input type="reset" value="Novo">
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Conteudo-->
+        </tbody>
+    </table>
+</body>
+</html>
