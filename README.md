@@ -1,11 +1,20 @@
-# Exercícios e Atividades - Curso Técnico em Desenvolvimento de Sistemas
+# Bem Vindo!
 
-Bem-vindo ao repositório onde são armazenados os exercícios e atividades realizadas durante o meu curso de **Técnico em Desenvolvimento de Sistemas**. Este repositório tem como objetivo organizar e centralizar os desafios e tarefas feitas ao longo do curso, servindo como um portfólio de aprendizado.
+Aqui, você encontrará todos os meus estudos e materiais sobre tudo que eu aprendi no meu curso **Técnico em Desenvolvimento de Sistemas**. Este repositório foi criado com o objetivo de consolidar e compartilhar conhecimentos sobre os conceitos, estruturas e práticas utilizadas em bancos de dados.
 
 ## Estrutura do Repositório
 
 O repositório está organizado de acordo com os módulos e tópicos abordados no curso. Cada diretório contém atividades, exercícios de programação e projetos práticos desenvolvidos ao longo do aprendizado.
 
+<div align="center">
+
+|Módulo|Link|
+|:-:|:-:|
+|Python|[Aqui](./python/)|
+|Eletrônica|--|
+|Banco de dados|[Aqui](./database/README.md)|
+
+</div>
 
 ## Objetivos do Repositório
 
