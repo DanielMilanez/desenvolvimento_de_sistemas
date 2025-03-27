@@ -31,7 +31,7 @@ Este repositório tem como objetivo:
 
 Durante o curso, foram utilizadas diversas tecnologias, incluindo, mas não se limitando a:
 
-- **Linguagens de Programação**: Python, C.
+- **Linguagens de Programação**: Python, C, JavaScript.
 - **Ferramentas e Frameworks**: Git, GitHub.
 
 ## Como Utilizar este Repositório
