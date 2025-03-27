@@ -11,6 +11,7 @@ O repositório está organizado de acordo com os módulos e tópicos abordados n
 |Módulo|Link|
 |:-:|:-:|
 |Python|[Aqui](./python/)|
+|C|[Aqui](./c/)|
 |Eletrônica|--|
 |Banco de dados|[Aqui](./database/README.md)|
 
