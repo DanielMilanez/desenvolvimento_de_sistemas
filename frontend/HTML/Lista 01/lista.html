@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>1° Lista de atividades</title>
+    <link rel="stylesheet" href="../../CSS/list.css">
+    <script src="../../JavaScript/Lista 01/firstCode.js" defer></script>
+    <script src="../../JavaScript/Lista 01/ex01.js" defer></script>
+    <script src="../../JavaScript/Lista 01/ex02.js" defer></script>
+    <script src="../../JavaScript/Lista 01/ex03.js" defer></script>
+    <script src="../../JavaScript/Lista 01/ex04.js" defer></script>
+    <script>
+        function executarCode(codeNumber) {
+            switch (codeNumber) {
+                case 0:
+                    executeHello();
+                    break;
+                case 1:
+                    execute01();
+                    break;
+                case 2:
+                    execute02();
+                    break;
+                case 3:
+                    execute03();
+                    break;
+                case 4:
+                    execute04();
+                    break;
+                default:
+                    console.log("Código inválido");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>Aprendendo lógica de programação no senai</h3>
+    <div class="itens">
+        <p>cada um dos seguintes botões, executa um algoritmo desenvolvido em JS</p>
+        <br><br>
+        <p>Primeiro código em JS</p>
+        <button class="atividades" onclick="executarCode(0)">Executar</button>
+        <p>1. Número anterior e posterior</p>
+        <button class="atividades" onclick="executarCode(1)">Executar</button>
+        <p>2. Dividindo a conta do restaurante</p>
+        <button class="atividades" onclick="executarCode(2)">Executar</button>
+        <p>3. Calculando parcela do produto em 3x</p>
+        <button class="atividades" onclick="executarCode(3)">Executar</button>
+        <p>4. Calculando média de uma nota</p>
+        <button class="atividades" onclick="executarCode(4)">Executar</button>
+    </div>
+    <div class="itens">
+        <p>As seguintes atividades necessitam de uma pagina web exclusiva para elas, não sendo um pop-up retornando algo.</p>
+        <br><br>
+        5. Atividade - <a href="./farmacia.html">farmácia</a><br><br>
+        6. Atividade - <a href="./lanhouse.html">lan house</a><br><br>
+        7. Atividade - <a href="./supermercado.html">super mercado</a><br><br>
+    </div>
+</body>
+</html>

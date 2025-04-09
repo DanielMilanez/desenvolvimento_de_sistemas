@@ -1,0 +1,30 @@
+<!-- Este arquivo é uma alternativa de um pseudo sistema de navegação, apenas utilizando um array e um laço de repetição :) -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação legal :3</title>
+</head>
+<body>
+    <script>
+        const listaArquivos = [
+            "../Lista 01/lista.html",
+            "../Lista 02/lista.html",
+            "../Lista 03/lista.html",
+            "../Lista 04/lista.html"];
+        // let cap = "";
+        for(let i = 0; i < listaArquivos.length; i++){
+            // let url = listaArquivos[i].split("/");
+
+            // if (cap != url[1]){
+                // cap = url[1]
+                // document.write(`<h3>${cap.replace("Lista", "Capítulo")}</h3>`);
+            // }
+
+            let valueDocument = listaArquivos[i].substring(3).replace(".html", "").replace("/", " ");
+            document.write(`<br><a href="${listaArquivos[i]}"> ${valueDocument}</a>`);
+        }
+    </script>
+</body>
+</html>

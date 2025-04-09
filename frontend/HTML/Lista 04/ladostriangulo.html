@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../JavaScript/Lista 04/ex04.js" defer></script>
+    <link rel="stylesheet" href="../../CSS/ladostriangulo.css">
+    <title>Lados de um triângulo</title>
+</head>
+<body>
+    <h1>Verificar se é um triângulo</h1>
+    <div class="container">
+        <form>
+            <p> Informe o 1° lado do triângulo
+                <input type="text" id="ladoA">
+            </p>
+            <p>Informe o 2° lado do triângulo
+                <input type="text" id="ladoB">
+            </p>
+            <p>Informe o 3° lado do triângulo
+                <input type="text" id="ladoC">
+            </p>
+            <input type="button" onclick="verificaTriangulo()" value="Verificar!">
+            <h3></h3>
+        </form>
+        <canvas id="trianguloCanvas" width="400" height="400" style="display: none;"></canvas>
+    </div>
+</body>
+</html>
