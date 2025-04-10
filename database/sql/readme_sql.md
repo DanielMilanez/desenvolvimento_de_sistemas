@@ -17,7 +17,7 @@ Caso queira ver o arquivo do código acesse por aqui:
 |db_restaurante|[codigo](./dbs/db_restaurante.sql)|
 |db_filme|[codigo](./dbs/db_filme.sql)|
 |db_babearia|[codigo](./dbs/db_barbearia.sql)|
-|db_simulado|[codigo](./Simulado%20prova/simulado_prova.sql)|
+|db_simulado|[codigo](./Simulado%20prova/db_simulado_prova.sql)|
 
 </div>
 
